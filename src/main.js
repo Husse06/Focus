@@ -21,16 +21,18 @@ const PET_SVGS = {
       <!-- Head -->
       <circle cx="90" cy="82" r="38" fill="#1a9aaa" />
       <!-- Face -->
-      <!-- Closed eyes (sleeping) — curved lines -->
-      <path d="M72 80 Q77 86 82 80" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
-      <path d="M98 80 Q103 86 108 80" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
-      <!-- Nose -->
-      <ellipse cx="90" cy="88" rx="3" ry="2.5" fill="#f0a6b6" />
-      <!-- Mouth -->
-      <path d="M86 92 Q90 96 94 92" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" fill="none" />
-      <!-- Blush -->
-      <ellipse cx="70" cy="88" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
-      <ellipse cx="110" cy="88" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
+      <g id="pet-face-group" style="transition: transform 0.1s ease-out;">
+        <!-- Closed eyes (sleeping) — curved lines -->
+        <path d="M72 80 Q77 86 82 80" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
+        <path d="M98 80 Q103 86 108 80" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
+        <!-- Nose -->
+        <ellipse cx="90" cy="88" rx="3" ry="2.5" fill="#f0a6b6" />
+        <!-- Mouth -->
+        <path d="M86 92 Q90 96 94 92" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" fill="none" />
+        <!-- Blush -->
+        <ellipse cx="70" cy="88" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
+        <ellipse cx="110" cy="88" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
+      </g>
       <!-- Zzz bubbles -->
       <text x="130" y="60" font-size="14" fill="#8bb5b5" font-family="Nunito, sans-serif" font-weight="700" opacity="0.7">
         <animate attributeName="opacity" values="0;0.7;0" dur="2s" repeatCount="indefinite" />
@@ -62,27 +64,30 @@ const PET_SVGS = {
       <polygon points="128,78 140,52 118,72" fill="#8dd8e0" />
       <!-- Head -->
       <circle cx="90" cy="82" r="38" fill="#1a9aaa" />
-      <!-- Glasses -->
-      <circle cx="76" cy="79" r="12" stroke="#0a4e5c" stroke-width="2.5" fill="rgba(26,154,170,0.15)" />
-      <circle cx="104" cy="79" r="12" stroke="#0a4e5c" stroke-width="2.5" fill="rgba(26,154,170,0.15)" />
-      <line x1="88" y1="79" x2="92" y2="79" stroke="#0a4e5c" stroke-width="2.5" />
-      <line x1="64" y1="79" x2="56" y2="75" stroke="#0a4e5c" stroke-width="2.5" />
-      <line x1="116" y1="79" x2="124" y2="75" stroke="#0a4e5c" stroke-width="2.5" />
-      <!-- Shine on glasses -->
-      <circle cx="72" cy="75" r="3" fill="white" opacity="0.4" />
-      <circle cx="100" cy="75" r="3" fill="white" opacity="0.4" />
-      <!-- Open eyes behind glasses -->
-      <circle cx="76" cy="80" r="4" fill="#0a4e5c" />
-      <circle cx="104" cy="80" r="4" fill="#0a4e5c" />
-      <circle cx="77" cy="79" r="1.5" fill="white" />
-      <circle cx="105" cy="79" r="1.5" fill="white" />
-      <!-- Nose -->
-      <ellipse cx="90" cy="88" rx="3" ry="2.5" fill="#f0a6b6" />
-      <!-- Determined mouth -->
-      <line x1="84" y1="93" x2="96" y2="93" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" />
-      <!-- Blush -->
-      <ellipse cx="70" cy="90" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
-      <ellipse cx="110" cy="90" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
+      <!-- Face Features Group -->
+      <g id="pet-face-group" style="transition: transform 0.1s ease-out;">
+        <!-- Glasses -->
+        <circle cx="76" cy="79" r="12" stroke="#0a4e5c" stroke-width="2.5" fill="rgba(26,154,170,0.15)" />
+        <circle cx="104" cy="79" r="12" stroke="#0a4e5c" stroke-width="2.5" fill="rgba(26,154,170,0.15)" />
+        <line x1="88" y1="79" x2="92" y2="79" stroke="#0a4e5c" stroke-width="2.5" />
+        <line x1="64" y1="79" x2="56" y2="75" stroke="#0a4e5c" stroke-width="2.5" />
+        <line x1="116" y1="79" x2="124" y2="75" stroke="#0a4e5c" stroke-width="2.5" />
+        <!-- Shine on glasses -->
+        <circle cx="72" cy="75" r="3" fill="white" opacity="0.4" />
+        <circle cx="100" cy="75" r="3" fill="white" opacity="0.4" />
+        <!-- Open eyes behind glasses -->
+        <circle cx="76" cy="80" r="4" fill="#0a4e5c" />
+        <circle cx="104" cy="80" r="4" fill="#0a4e5c" />
+        <circle cx="77" cy="79" r="1.5" fill="white" />
+        <circle cx="105" cy="79" r="1.5" fill="white" />
+        <!-- Nose -->
+        <ellipse cx="90" cy="88" rx="3" ry="2.5" fill="#f0a6b6" />
+        <!-- Determined mouth -->
+        <line x1="84" y1="93" x2="96" y2="93" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" />
+        <!-- Blush -->
+        <ellipse cx="70" cy="90" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
+        <ellipse cx="110" cy="90" rx="7" ry="4" fill="#f0a6b6" opacity="0.3" />
+      </g>
       <!-- Tiny laptop -->
       <rect x="68" y="138" rx="3" width="44" height="26" fill="#0a4e5c" />
       <rect x="71" y="141" rx="2" width="38" height="18" fill="#0e7a8a">
@@ -118,28 +123,31 @@ const PET_SVGS = {
       <polygon points="126,80 134,56 115,73" fill="#8dd8e0" />
       <!-- Head -->
       <circle cx="90" cy="85" r="38" fill="#1a9aaa" />
-      <!-- Sad eyes -->
-      <path d="M73 76 Q78 72 83 76" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
-      <path d="M97 76 Q102 72 107 76" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
-      <!-- Eyebrows (worried) -->
-      <path d="M69 70 Q76 66 83 70" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" fill="none" />
-      <path d="M97 70 Q104 66 111 70" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" fill="none" />
-      <!-- Tear drops -->
-      <ellipse cx="72" cy="88" rx="3" ry="5" fill="#60a5fa" opacity="0.8">
-        <animate attributeName="cy" values="88;108" dur="1.5s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.8;0" dur="1.5s" repeatCount="indefinite" />
-      </ellipse>
-      <ellipse cx="108" cy="88" rx="3" ry="5" fill="#60a5fa" opacity="0.8">
-        <animate attributeName="cy" values="88;108" dur="1.5s" begin="0.6s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.8;0" dur="1.5s" begin="0.6s" repeatCount="indefinite" />
-      </ellipse>
-      <!-- Nose -->
-      <ellipse cx="90" cy="86" rx="3" ry="2.5" fill="#f0a6b6" />
-      <!-- Sad mouth -->
-      <path d="M82 96 Q90 90 98 96" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
-      <!-- Blush (more red when sad) -->
-      <ellipse cx="70" cy="90" rx="8" ry="4" fill="#f87171" opacity="0.25" />
-      <ellipse cx="110" cy="90" rx="8" ry="4" fill="#f87171" opacity="0.25" />
+      <!-- Face Features Group -->
+      <g id="pet-face-group" style="transition: transform 0.1s ease-out;">
+        <!-- Sad eyes -->
+        <path d="M73 76 Q78 72 83 76" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M97 76 Q102 72 107 76" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <!-- Eyebrows (worried) -->
+        <path d="M69 70 Q76 66 83 70" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" fill="none" />
+        <path d="M97 70 Q104 66 111 70" stroke="#0a4e5c" stroke-width="2" stroke-linecap="round" fill="none" />
+        <!-- Tear drops -->
+        <ellipse cx="72" cy="88" rx="3" ry="5" fill="#60a5fa" opacity="0.8">
+          <animate attributeName="cy" values="88;108" dur="1.5s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.8;0" dur="1.5s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="108" cy="88" rx="3" ry="5" fill="#60a5fa" opacity="0.8">
+          <animate attributeName="cy" values="88;108" dur="1.5s" begin="0.6s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.8;0" dur="1.5s" begin="0.6s" repeatCount="indefinite" />
+        </ellipse>
+        <!-- Nose -->
+        <ellipse cx="90" cy="86" rx="3" ry="2.5" fill="#f0a6b6" />
+        <!-- Sad mouth -->
+        <path d="M82 96 Q90 90 98 96" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <!-- Blush (more red when sad) -->
+        <ellipse cx="70" cy="90" rx="8" ry="4" fill="#f87171" opacity="0.25" />
+        <ellipse cx="110" cy="90" rx="8" ry="4" fill="#f87171" opacity="0.25" />
+      </g>
       <!-- Tail (droopy) -->
       <path d="M35 135 Q20 140 18 155" stroke="#1a9aaa" stroke-width="8" stroke-linecap="round" fill="none" />
     </svg>
@@ -164,18 +172,21 @@ const PET_SVGS = {
       <circle cx="90" cy="78" r="38" fill="#1a9aaa">
         <animate attributeName="cy" values="78;73;78" dur="0.6s" repeatCount="indefinite" />
       </circle>
-      <!-- HAPPY eyes (^_^) -->
-      <path d="M72 76 Q77 70 82 76" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
-      <path d="M98 76 Q103 70 108 76" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
-      <!-- Nose -->
-      <ellipse cx="90" cy="83" rx="3" ry="2.5" fill="#f0a6b6" />
-      <!-- Big happy smile -->
-      <path d="M80 88 Q90 98 100 88" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
-      <!-- Tongue -->
-      <ellipse cx="90" cy="92" rx="4" ry="3" fill="#f472b6" />
-      <!-- Blush (happy) -->
-      <ellipse cx="68" cy="84" rx="8" ry="4" fill="#f472b6" opacity="0.3" />
-      <ellipse cx="112" cy="84" rx="8" ry="4" fill="#f472b6" opacity="0.3" />
+      <!-- Face Features Group -->
+      <g id="pet-face-group" style="transition: transform 0.1s ease-out;">
+        <!-- HAPPY eyes (^_^) -->
+        <path d="M72 76 Q77 70 82 76" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
+        <path d="M98 76 Q103 70 108 76" stroke="#0a4e5c" stroke-width="3" stroke-linecap="round" fill="none" />
+        <!-- Nose -->
+        <ellipse cx="90" cy="83" rx="3" ry="2.5" fill="#f0a6b6" />
+        <!-- Big happy smile -->
+        <path d="M80 88 Q90 98 100 88" stroke="#0a4e5c" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <!-- Tongue -->
+        <ellipse cx="90" cy="92" rx="4" ry="3" fill="#f472b6" />
+        <!-- Blush (happy) -->
+        <ellipse cx="68" cy="84" rx="8" ry="4" fill="#f472b6" opacity="0.3" />
+        <ellipse cx="112" cy="84" rx="8" ry="4" fill="#f472b6" opacity="0.3" />
+      </g>
       <!-- Sparkles around -->
       <g>
         <polygon points="30,50 33,40 36,50 33,60" fill="#fbbf24" opacity="0.8">
@@ -245,11 +256,11 @@ const PET_STATUS_MESSAGES = {
 const FOCUS_DURATION = 25 * 60; // 25 minutes in seconds
 const SHORT_BREAK_DURATION = 5 * 60; // 5 minutes in seconds
 const LONG_BREAK_DURATION = 15 * 60; // 15 minutes in seconds
-const XP_PER_SESSION = 25;
+const XP_PER_SESSION = 100;
 const STORAGE_KEY = 'focus-pet-data';
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const CONFETTI_COLORS = ['#1a9aaa', '#5ec6d0', '#f472b6', '#34d399', '#fbbf24', '#8dd8e0', '#0e7a8a'];
-const PARTICLE_COUNT = 15;
+const PARTICLE_COUNT = 30;
 
 // ─── State ──────────────────────────────────
 let state = loadState();
@@ -503,10 +514,10 @@ function renderWeeklyChart() {
 // ─── Timer Engine ───────────────────────────────
 function togglePause() {
   if (!state.isRunning) return;
-  
+
   state.isPaused = !state.isPaused;
   renderButtons();
-  
+
   if (state.isPaused) {
     state.petState = 'idle';
   } else {
@@ -521,7 +532,7 @@ function startTimer() {
 
   state.isRunning = true;
   state.isPaused = false;
-  
+
   if (state.mode === 'focus') {
     state.timerSeconds = FOCUS_DURATION;
     state.petState = 'focusing';
@@ -532,7 +543,7 @@ function startTimer() {
     state.timerSeconds = LONG_BREAK_DURATION;
     state.petState = 'idle';
   }
-  
+
   state.currentTask = taskInput.value.trim();
 
   renderSessionLabel();
@@ -563,7 +574,7 @@ function giveUp() {
   state.isRunning = false;
   state.isPaused = false;
   state.petState = 'failed';
-  
+
   if (state.mode === 'focus') {
     state.timerSeconds = FOCUS_DURATION;
     // Record failed session
@@ -577,7 +588,7 @@ function giveUp() {
   } else {
     state.timerSeconds = LONG_BREAK_DURATION;
   }
-  
+
   saveState();
 
   renderPet();
@@ -599,7 +610,7 @@ function skipSession() {
 
   state.isRunning = false;
   state.isPaused = false;
-  
+
   if (state.mode === 'focus') {
     // Advance to break without XP
     state.pomodoroCount++;
@@ -618,7 +629,7 @@ function skipSession() {
     state.mode = 'focus';
     state.timerSeconds = FOCUS_DURATION;
   }
-  
+
   state.petState = 'idle';
 
   saveState();
@@ -656,13 +667,13 @@ function completeSession() {
       task: state.currentTask || 'Focus session',
       completed: true,
     });
-    
+
     if (state.pomodoroCount >= 4) {
       state.mode = 'longBreak';
     } else {
       state.mode = 'shortBreak';
     }
-    
+
     triggerConfetti();
     if (state.level > oldLevel) {
       setTimeout(() => triggerLevelUp(state.level), 800);
@@ -674,7 +685,7 @@ function completeSession() {
     }
     state.mode = 'focus';
   }
-  
+
   saveState();
 
   renderSessionLabel();
@@ -899,6 +910,35 @@ function initFloatingParticles() {
     document.body.appendChild(particle);
   }
 }
+
+// ─── Face Tracking Logic ────────────────────────
+// This listens to where the mouse is and shifts the #pet-face-group slightly
+document.addEventListener('mousemove', (e) => {
+  const faceGroup = document.querySelector('#pet-face-group');
+  if (!faceGroup || !petContainer) return;
+
+  const rect = petContainer.getBoundingClientRect();
+  const centerX = rect.left + rect.width / 2;
+  const centerY = rect.top + rect.height / 2;
+  
+  const mouseX = e.clientX;
+  const mouseY = e.clientY;
+  
+  // Calculate distance from center of pet
+  const deltaX = mouseX - centerX;
+  const deltaY = mouseY - centerY;
+  
+  // Normalize based on screen size so movement isn't extreme
+  // Multiplier determines sensitivity.
+  const moveX = (deltaX / window.innerWidth) * 16;
+  const moveY = (deltaY / window.innerHeight) * 16;
+  
+  // Clamp boundaries to prevent crazy dislocated eyes!
+  const clampedX = Math.max(-8, Math.min(8, moveX));
+  const clampedY = Math.max(-5, Math.min(5, moveY));
+  
+  faceGroup.setAttribute('transform', `translate(${clampedX}, ${clampedY})`);
+});
 
 // ─── Initialize ─────────────────────────────────
 function init() {
