@@ -1,16 +1,13 @@
 <div align="center">
-  <img src="public/favicon.svg" alt="Focus Pet Logo" width="120" height="120">
   <h1>Focus Pet 🐾</h1>
-  <p><b>A cozy, gamified Pomodoro timer to help you stay productive.</b></p>
+  <p><b>A cozy, Pomodoro timer to help you stay productive.</b></p>
   
   [![Live Demo](https://img.shields.io/badge/Live_Demo-Play_Now-1a9aaa?style=for-the-badge)](https://Husse06.github.io/Focus/)
 </div>
 
 <br>
 
-Focus Pet is a beautifully designed, gamified Pomodoro timer built to make studying and working more enjoyable. By pairing the proven Pomodoro technique with a virtual pet companion that levels up as you focus, this app turns productivity into a rewarding journey.
-
-Created as a portfolio project showcasing modern web development, pure DOM manipulation, and aesthetic UI/UX design.
+Focus Pet is a beautifully designed, Pomodoro timer built to make studying and working more enjoyable. By pairing the proven Pomodoro technique with a virtual pet companion that levels up as you focus, this app turns productivity into a rewarding journey.
 
 <br>
 
@@ -25,13 +22,12 @@ Created as a portfolio project showcasing modern web development, pure DOM manip
 ## Features
 
 - **🍅 Classic Pomodoro Flow**: 25-minute focus sessions, 5-minute short breaks, and a 15-minute long break after 4 consecutive sessions.
-- **🎮 Gamification & XP**: Earn Experience Points (XP) for every successful focus session to level up your virtual pet.
-- **🐾 Virtual Companion**: Your pet ("Luna" or any name you choose!) reacts to your focus state—sleeping on breaks, cheering you on while working, and reacting to skipped or failed tasks.
-- **🎨 Cozy UI/UX**: A beautifully crafted "Soft Dark Mode" featuring fluid animations, glowing cursor effects, and glassmorphism styling.
-- **⚙️ Complete Control**: Pause, resume, give up, or skip breaks—you're always in control of your session.
-- **💾 Local Storage Persistence**: Your pet's name, level, XP, and stats are securely saved in your browser locally. All privacy, no databases required.
+- **XP**: Earn Experience Points (XP) for every successful focus session to level up your virtual pet.
+- **Virtual Companion**: Your pet reacts to your focus state—sleeping on breaks, cheering you on while working, and reacting to skipped or failed tasks.
+- **Cozy UI/UX**: A beautifully crafted "Soft Dark Mode" featuring fluid animations, glowing cursor effects, and glassmorphism styling.
+- **Local Storage Persistence**: Your pet's name, level, XP, and stats are securely saved in your browser locally. All privacy, no databases required.
 
-## 🛠️ Built With
+## Built With
 
 Focus Pet is a lightweight frontend application built entirely without heavy frontend UI libraries to demonstrate strong fundamental JavaScript and CSS skills.
 
@@ -39,12 +35,12 @@ Focus Pet is a lightweight frontend application built entirely without heavy fro
 - **Vanilla JavaScript**: All state management, DOM manipulation, and timer logic are handled natively.
 - **Vite**: Used as the frontend build tool for a fast, optimized development experience and quick bundling for production.
 
-## 🚀 Live Demo
+## Live Demo
 
 You can try the app right now straight from your browser:  
 👉 **[Play Focus Pet](https://Husse06.github.io/Focus/)**
 
-## 💻 Local Installation
+## Local Installation
 
 If you want to run this project locally, explore the code, or contribute:
 
@@ -66,16 +62,14 @@ If you want to run this project locally, explore the code, or contribute:
 
 4. Open `http://localhost:5173` in your browser.
 
-## 📝 Future Roadmap
+## Future Roadmap
 
 - [ ] Add sound effects for session completions.
 - [ ] Implement varied pet avatars (Cat, Dog, Slime, etc.).
 - [ ] Add custom timer lengths for power users.
 - [ ] Detailed historical charts & graphs.
 
-## 🙋‍♂️ Author
-
-**Hussein** - *Frontend Developer & Designer*
+## Author
 - GitHub: [@Husse06](https://github.com/Husse06)
 
 ---
