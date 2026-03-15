@@ -72,7 +72,3 @@ If you want to run this project locally, explore the code, or contribute:
 ## Author
 - GitHub: [@Husse06](https://github.com/Husse06)
 
----
-<div align="center">
-  <i>Built with focus and lots of coffee ☕️</i>
-</div>
