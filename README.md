@@ -12,11 +12,17 @@ Focus Pet is a beautifully designed, gamified Pomodoro timer built to make study
 
 Created as a portfolio project showcasing modern web development, pure DOM manipulation, and aesthetic UI/UX design.
 
-![Live Demo Screenshot](https://raw.githubusercontent.com/Husse06/Focus/gh-pages/assets/hero.png) *(Preview of the app - you can add a real screenshot here later)*
+<br>
+
+<p align="center">
+  <img src="public/screenshots/focus.png" alt="Focus Mode - Teal" width="32%">
+  <img src="public/screenshots/short-break.png" alt="Short Break Mode - Green" width="32%">
+  <img src="public/screenshots/long-break.png" alt="Long Break Mode - Blue" width="32%">
+</p>
 
 ---
 
-## ✨ Features
+## Features
 
 - **🍅 Classic Pomodoro Flow**: 25-minute focus sessions, 5-minute short breaks, and a 15-minute long break after 4 consecutive sessions.
 - **🎮 Gamification & XP**: Earn Experience Points (XP) for every successful focus session to level up your virtual pet.
